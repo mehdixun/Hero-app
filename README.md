@@ -1,4 +1,4 @@
-# Project Name: PawMart – Assigment -8  
+# Project Name: PawMart – Hero app
 
 **Live Site:**   
 https://assignment-8-heriio.netlify.app/
