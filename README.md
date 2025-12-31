@@ -1,16 +1,49 @@
-# React + Vite
+# Project Name: PawMart – Assigment -8  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:**   
+https://assignment-8-heriio.netlify.app/
+---
 
-Currently, two official plugins are available:
+## 🌐 Project Overview
+**PawMart** is a community-driven platform where pet owners, breeders, and shops can list pets for adoption or sell pet-related products (food, toys, accessories, and care products).  
+Users can explore listings, adopt pets, or order supplies directly through the platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ⚙️ Key Features
+- Browse and filter listings by category: Pets, Food, Accessories, and Care Products.  
+- Firebase Authentication (Email/Password + Google Login).  
+- Add, Update, and Delete user’s own listings.  
+- Order/Adopt pets via dynamic modal with order form.  
+- My Listings and My Orders dashboard for logged-in users.  
+- Generate PDF report of orders using jsPDF & jsPDF-AutoTable.  
+- Light/Dark mode toggle.  
+- Fully responsive SPA built with React Router DOM.  
+- ⚡ Toast notifications for all CRUD operations using react-hot-toast / SweetAlert2.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔐 Authentication
+- Firebase Authentication used (Email & Password, Google Login).  
+- Password must include:
+  - At least **1 uppercase letter**
+  - At least **1 lowercase letter**
+  - Minimum **6 characters**
+- No lorem text used; meaningful UI messages shown via toasts.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+### 🖥️ Frontend:
+- React.js (Vite)
+- React Router DOM
+- Firebase Auth
+- Tailwind CSS + DaisyUI
+- React Hot Toast / SweetAlert2
+- Framer Motion (for animations)
+
+### ⚙️ Backend:
+- Node.js + Express.js
+- MongoDB + Mongoose
+- dotenv for environment management
+- CORS & JWT
